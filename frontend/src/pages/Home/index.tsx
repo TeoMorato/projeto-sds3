@@ -1,4 +1,4 @@
-import Footer from "components/Footer";
+import Footer from "components/FooterHome";
 import NavBar from "components/NavBar";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ function Home() {
                     </Link>
                 </div>
             </div>
-            <Footer /> 
+            <Footer />
         </>
     );
 }
